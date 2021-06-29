@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark">
+    <h2 style="text-align: center;color: wheat;">Can you turn on the light??</h2>
+    <div class="container">
+        <div class="bulb" style="margin:15% 0 0 44%;">
+            <img src="images/bulb-off.png" alt="Bulb ON/OFF" style="max-width:25% ;" id="myBulb">
+        </div>
+        <div class="text-center" style="margin-top:5%">
+            <button type="button" class="btn btn-success mx-5 "
+                onclick="document.getElementById('myBulb').src='images/bulb-on.png'">Turn
+                ON</button>
+            <button type=" button" class="btn btn-danger"
+                onclick="document.getElementById('myBulb').src='images/bulb-off.png'">Turn OFF</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
